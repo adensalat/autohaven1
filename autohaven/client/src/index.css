@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  .card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: #1e3a8a;
+    border-color: #1e3a8a;
+  }
+  
+  .btn-primary:hover {
+    background-color: #172e6f;
+    border-color: #172e6f;
+  }
+  
+  .text-primary {
+    color: #1e3a8a !important;
+  }
+  
+  .bg-primary {
+    background-color: #1e3a8a !important;
+  }
