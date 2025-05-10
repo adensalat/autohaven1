@@ -150,20 +150,25 @@ const ContactPage = () => {
               <h2 className="card-title">Our Location</h2>
               
               <div className="ratio ratio-16x9 mb-4">
-                {/* Placeholder for map */}
-                <div className="bg-light d-flex align-items-center justify-content-center">
-                  <p className="text-muted">Map would be displayed here</p>
-                </div>
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.8923560395105!2d-6.2678248235305!3d53.3455777798284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9be12969fb%3A0x5c254eb3888d269!2sTemple%20Bar%2C%20Dublin%2C%20Ireland!5e0!3m2!1sen!2sus!4v1683751234567!5m2!1sen!2sus" 
+                  width="600" 
+                  height="450" 
+                  style={{ border: 0 }} 
+                  allowFullScreen="" 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade">
+                </iframe>
               </div>
               
               <h4>AutoHaven Motors</h4>
               <address>
                 <p>
-                  123 Car Street<br />
-                  Auto City, AC 12345
+                  15 Temple Bar<br />
+                  Dublin 2, D02 Y729, Ireland
                 </p>
                 <p>
-                  <strong>Phone:</strong> (123) 456-7890<br />
+                  <strong>Phone:</strong> +353 1 234 5678<br />
                   <strong>Email:</strong> info@autohaven.com
                 </p>
               </address>

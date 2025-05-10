@@ -8,7 +8,7 @@ const HomePage = () => {
       <div className="bg-primary text-white py-5 mb-5">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-6">
+            <div className="col-md-12">
               <h1 className="display-4 fw-bold">Find Your Dream Car</h1>
               <p className="lead">
                 Browse our selection of quality pre-owned vehicles at unbeatable prices.
@@ -16,13 +16,6 @@ const HomePage = () => {
               <Link to="/cars" className="btn btn-light btn-lg">
                 Browse Cars
               </Link>
-            </div>
-            <div className="col-md-6">
-              <img
-                src="https://via.placeholder.com/600x400"
-                alt="Car showcase"
-                className="img-fluid rounded shadow"
-              />
             </div>
           </div>
         </div>
@@ -36,9 +29,10 @@ const HomePage = () => {
           <div className="col-md-4 mb-4">
             <div className="card h-100 shadow-sm">
               <img
-                src="https://via.placeholder.com/300x200"
+                src="https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG95b3RhJTIwY2Ftcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
                 className="card-img-top"
-                alt="Featured car"
+                alt="2022 Toyota Camry"
+                style={{ height: '200px', objectFit: 'cover' }}
               />
               <div className="card-body">
                 <h5 className="card-title">2022 Toyota Camry</h5>
@@ -57,17 +51,18 @@ const HomePage = () => {
           <div className="col-md-4 mb-4">
             <div className="card h-100 shadow-sm">
               <img
-                src="https://via.placeholder.com/300x200"
+                src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVzbGElMjBtb2RlbCUyMDN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
                 className="card-img-top"
-                alt="Featured car"
+                alt="2023 Tesla Model 3"
+                style={{ height: '200px', objectFit: 'cover' }}
               />
               <div className="card-body">
-                <h5 className="card-title">2023 Honda Accord</h5>
-                <p className="text-primary h5">$28,500</p>
+                <h5 className="card-title">2023 Tesla Model 3</h5>
+                <p className="text-primary h5">$45,000</p>
                 <p className="card-text">
-                  Sleek design, fuel efficient, and packed with technology.
+                  Nearly new Tesla Model 3 with autopilot capabilities. Features include premium interior, glass roof, and long-range battery.
                 </p>
-                <Link to="/cars/2" className="btn btn-primary">
+                <Link to="/cars/4" className="btn btn-primary">
                   View Details
                 </Link>
               </div>
@@ -78,9 +73,10 @@ const HomePage = () => {
           <div className="col-md-4 mb-4">
             <div className="card h-100 shadow-sm">
               <img
-                src="https://via.placeholder.com/300x200"
+                src="https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZCUyMG11c3Rhbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
                 className="card-img-top"
-                alt="Featured car"
+                alt="2021 Ford Mustang"
+                style={{ height: '200px', objectFit: 'cover' }}
               />
               <div className="card-body">
                 <h5 className="card-title">2021 Ford Mustang</h5>

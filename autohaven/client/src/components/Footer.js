@@ -20,8 +20,8 @@ const Footer = () => {
           <div className="col-md-3">
             <h5>Contact Us</h5>
             <address>
-              <p>123 Car Street<br />Auto City, AC 12345</p>
-              <p>Phone: (123) 456-7890<br />Email: info@autohaven.com</p>
+              <p>15 Temple Bar<br />Dublin 2, D02 Y729, Ireland</p>
+              <p>Phone: +353 1 234 5678<br />Email: info@autohaven.com</p>
             </address>
           </div>
         </div>

@@ -55,14 +55,13 @@ const Header = () => {
                     </li>
                   )}
                   <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
+                    <button
+                      className="nav-link dropdown-toggle btn btn-link text-white p-0"
+                      type="button"
                       data-bs-toggle="dropdown"
                     >
                       {currentUser.name}
-                    </a>
+                    </button>
                     <ul className="dropdown-menu">
                       <li>
                         <Link className="dropdown-item" to="/profile">
